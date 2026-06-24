@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Xirui Kang / Miracle Kang's academic homepage on deep learning, vision-language-action models, and embodied AI."
+    />
+    <title>Miracle | Xirui Kang</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="cursor-orb" aria-hidden="true"></div>
+    <div class="site-noise" aria-hidden="true"></div>
+    <div class="logic-field" aria-hidden="true">
+      <span>∀x</span>
+      <span>∃y</span>
+      <span>λ</span>
+      <span>⊢</span>
+      <span>→</span>
+      <span>◇</span>
+      <span>AI</span>
+      <span>0 1</span>
+    </div>
+
+    <div class="intro-sequence" aria-hidden="true">
+      <div class="intro-robot">
+        <svg class="robot-svg" viewBox="0 0 420 420">
+          <circle class="svg-orbit" cx="210" cy="210" r="154" />
+          <circle class="svg-orbit svg-orbit-offset" cx="210" cy="210" r="112" />
+          <path class="svg-wire" d="M90 154 H146 L176 116 H242 L276 154 H332" />
+          <path class="svg-wire" d="M108 292 H152 L180 326 H246 L270 292 H314" />
+          <rect class="robot-head" x="128" y="128" width="164" height="164" rx="38" />
+          <path class="robot-jaw" d="M160 264 H260 L244 306 H176 Z" />
+          <circle class="robot-eye" cx="178" cy="196" r="13" />
+          <circle class="robot-eye" cx="242" cy="196" r="13" />
+          <path class="robot-mouth" d="M174 236 H246" />
+          <path class="logic-arc" d="M134 170 C184 94 278 106 306 176" />
+          <path class="logic-arc" d="M116 254 C164 336 266 332 314 250" />
+          <text class="logic-text" x="88" y="112">∀</text>
+          <text class="logic-text" x="300" y="112">λ</text>
+          <text class="logic-text" x="80" y="334">⊢</text>
+          <text class="logic-text" x="304" y="334">∃</text>
+          <circle class="node" cx="146" cy="154" r="5" />
+          <circle class="node" cx="276" cy="154" r="5" />
+          <circle class="node" cx="152" cy="292" r="5" />
+          <circle class="node" cx="270" cy="292" r="5" />
+        </svg>
+        <p>Miracle</p>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Go to top">
+        <img class="brand-sign" src="assets/sign.png" alt="Miracle Kang signature" />
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#experience">Experience</a>
+        <a href="#publications">Publications</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">Xirui Kang · Miracle Kang</p>
+          <h1 id="hero-title" class="hero-title reveal">
+            Xirui Kang
+          </h1>
+          <p class="hero-text reveal">
+            Research in deep learning and vision-language-action models for embodied AI.
+          </p>
+          <div class="hero-actions reveal">
+            <a class="button primary" href="https://scholar.google.com/citations?user=X9qKxrQAAAAJ&hl=zh-CN" aria-label="Google Scholar profile">Google Scholar</a>
+            <a class="button secondary" href="https://github.com/Mlrac1e">GitHub</a>
+          </div>
+          <div class="hero-facts reveal" aria-label="Academic profile highlights">
+            <p><span>Affiliation</span>City University of Hong Kong</p>
+            <p><span>Research Directions</span>Representation Learning · Transfer Learning · Embodied Intelligence</p>
+          </div>
+        </div>
+
+        <figure class="portrait-card reveal">
+          <div class="portrait-frame">
+            <img class="profile-photo" src="assets/20251229-140313.png" alt="Portrait of Xirui Kang" />
+            <span class="portrait-fallback" aria-hidden="true">XK</span>
+          </div>
+          <figcaption>
+            <span>Portrait</span>
+            <strong>Xirui Kang · Miracle Kang</strong>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="section-shell split-section" id="about" aria-labelledby="about-title">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2 id="about-title">I build models that connect perception, language, and action.</h2>
+        </div>
+        <div class="body-copy">
+          <p>
+            I am Xirui "Miracle" Kang. As an Embodied AI researcher, my work aims
+            to give artificial intelligence the ability to understand and interact
+            with the physical world. But beyond the algorithms, my true drive is
+            deeply personal.
+          </p>
+          <p>
+            To me, life is an endless quest for understanding. I believe that
+            through the quiet persistence of lifelong learning, we can gradually
+            transcend the endless complexities of "how" (Shu) to grasp the
+            profound clarity of "why" (Dao). Yet, the summit of this intellectual
+            journey is never solitary wisdom. Ultimately, knowledge is a vessel
+            meant to be emptied—shared freely to illuminate the path for others,
+            translating our collective progress into genuine, enduring happiness.
+          </p>
+        </div>
+      </section>
+
+      <section class="section-shell experience-section" id="experience" aria-labelledby="experience-title">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2 id="experience-title">Units and schools.</h2>
+        </div>
+        <div class="experience-list">
+          <article class="experience-item reveal-card" data-short="x2robot">
+            <p class="experience-year">2025-12 ~ 2026.07</p>
+            <div>
+              <h3>X Square Robot</h3>
+              <p>Foundation model pretraining and action tokenizer design.</p>
+            </div>
+          </article>
+          <article class="experience-item reveal-card" data-short="CITYU">
+            <p class="experience-year">2025.09 ~ 2026.10</p>
+            <div>
+              <h3>City University of Hong Kong</h3>
+              <p>Research and study in deep learning, VLM models, and VLA.</p>
+            </div>
+          </article>
+          <article class="experience-item reveal-card" data-short="THU-AIR">
+            <p class="experience-year">2025 - Present</p>
+            <div>
+              <h3>Tsinghua University (RA)</h3>
+              <p>Research collaboration in embodied intelligence and robot foundation models.</p>
+            </div>
+          </article>
+          <article class="experience-item reveal-card" data-short="NJUPT">
+            <p class="experience-year">2020.09 ~ 2024.06</p>
+            <div>
+              <h3>Nanjing University of Posts and Telecommunications</h3>
+              <p>Undergraduate studies and early research training in AI and related fields.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell" id="publications" aria-labelledby="publications-title">
+        <div class="section-heading">
+          <p class="eyebrow">Publications</p>
+          <h2 id="publications-title">Publications by year.</h2>
+        </div>
+        <div class="paper-list">
+          <article class="paper-card reveal-card" data-type="TECH REPORT">
+            <p class="paper-meta">2026</p>
+            <div class="paper-content">
+              <h3>Wall-OSS-0.5 Technical Report</h3>
+              <p>
+                R Yu, P Zhang, S Liu, B Liu, M Kang, S Li, L Shi, E Ma,
+                P Yang, C Pan, et al. X Square Robot Technical Report.
+              </p>
+              <a href="https://arxiv.org/abs/2605.30877" aria-label="Read Wall-OSS technical report">Report</a>
+            </div>
+          </article>
+          <article class="paper-card reveal-card" data-type="ARXIV">
+            <p class="paper-meta">2026</p>
+            <div class="paper-content">
+              <h3>X-Tokenizer: A Multimodal Action Tokenizer for Vision-Language-Action Pretraining</h3>
+              <p>
+                X Kang, Y Shi, L Liang, R Gan, D Liu, P Zhang, D Chen,
+                X Qin, Y Zheng, et al. arXiv preprint arXiv:2606.14752.
+              </p>
+              <a href="https://arxiv.org/abs/2606.14752" aria-label="Read X-Tokenizer paper">arXiv</a>
+              <a href="https://x-square-robot.github.io/X-Tokenizer_projectPage/" aria-label="X-Tokenizer project page">Project</a>
+            </div>
+          </article>
+          <article class="paper-card reveal-card" data-type="ICML">
+            <p class="paper-meta">2026</p>
+            <div class="paper-content">
+              <h3>SpecPL: Disentangling Spectral Granularity for Prompt Learning</h3>
+              <p>J Zhou, X Kang, F Huang, L. M. Po.</p>
+              <a href="https://arxiv.org/abs/2605.04504" aria-label="Read SpecPL paper">Paper</a>
+            </div>
+          </article>
+          <article class="paper-card reveal-card" data-type="ICLR">
+            <p class="paper-meta">2025</p>
+            <div class="paper-content">
+              <h3>X-VLA: Soft-prompted Transformer as Scalable Cross-Embodiment Vision-Language-Action Model</h3>
+              <p>
+                J Zheng, J Li, Z Wang, D Liu, X Kang, Y Feng, Y Zheng, J Zou,
+                Y Chen, et al. 1st at Agibot World Challenge, IROS 2025.
+              </p>
+              <a href="https://thu-air-dream.github.io/X-VLA/" aria-label="Read X-VLA paper">Paper / Project</a>
+            </div>
+          </article>
+          <article class="paper-card reveal-card" data-type="ICONIP">
+            <p class="paper-meta">2024</p>
+            <div class="paper-content">
+              <h3>
+                LiteSOD-DINO: Leveraging Large Kernel Convolutions and Attention
+                for Enhanced Small Object Detection in Infrared Imagery Under
+                Resource Constraints
+              </h3>
+              <p>X Kang. International Conference on Neural Information Processing, 305-319.</p>
+              <a href="https://link.springer.com/chapter/10.1007/978-981-96-6969-1_21" aria-label="Read LiteSOD-DINO paper">Paper</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+    </main>
+
+  </body>
+</html>
