@@ -45,21 +45,21 @@ if (!window.gsap) {
       .fromTo(
         ".intro-sequence .svg-orbit",
         { autoAlpha: 0, scale: 0.9, transformOrigin: "50% 50%" },
-        { autoAlpha: 1, scale: 1, duration: 0.8 }
+        { autoAlpha: 1, scale: 1, duration: 0.35 }
       )
       .fromTo(
         ".intro-sequence .svg-wire, .intro-sequence .logic-arc, .intro-sequence .robot-head, .intro-sequence .robot-jaw, .intro-sequence .robot-mouth",
         { strokeDasharray: 420, strokeDashoffset: 420 },
-        { strokeDashoffset: 0, duration: 1.32, stagger: 0.055 },
-        "-=0.28"
+        { strokeDashoffset: 0, duration: 0.48, stagger: 0.018 },
+        "-=0.12"
       )
       .fromTo(
         ".intro-sequence .robot-eye, .intro-sequence .node, .intro-sequence .logic-text, .intro-robot p",
         { autoAlpha: 0, scale: 0.86, transformOrigin: "50% 50%" },
-        { autoAlpha: 1, scale: 1, duration: 0.42, stagger: 0.04 },
-        "-=0.4"
+        { autoAlpha: 1, scale: 1, duration: 0.2, stagger: 0.012 },
+        "-=0.16"
       )
-      .to(".intro-sequence", { autoAlpha: 0, duration: 0.76, ease: "power2.inOut" }, "+=0.46")
+      .to(".intro-sequence", { autoAlpha: 0, duration: 0.34, ease: "power2.inOut" }, "+=0.18")
       .set(".intro-sequence", { display: "none" })
       .set(".site-header, main", { autoAlpha: 1 })
       .fromTo(
